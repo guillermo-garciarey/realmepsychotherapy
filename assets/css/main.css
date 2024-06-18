@@ -1158,7 +1158,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.4), rgba(19, 21, 25, 0.4)), url("../../images/bg7.jpg");
+			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/bg7.jpg");
 			background-position: center;
 			background-size: contain;
 			background-repeat: no-repeat;
@@ -1659,3 +1659,13 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+		/* Style for the strong link */
+.strong-link {
+    color: olivedrab; /* Set the link color to blue */
+    text-decoration: none; /* Remove underline from the link */
+}
+
+.strong-link:hover {
+    
+}
